@@ -17,7 +17,7 @@ const mc = mysql.createConnection({
     port     : '3306',
     password : '9Fz_QybKgcUm',
     database : 'fhbs_numheritlabscom231',
-    socketPath: '/tmp/mysql.sock'
+    //socketPath: '/tmp/mysql.sock'
 });
 
 // connect to database
