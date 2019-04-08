@@ -17,7 +17,7 @@ const mc = mysql.createConnection({
     port     : '3306',
     password : 'EYGtpv96362',
     database : 'postecash',
-    socketPath: '/var/lib/mysql/mysql.sock'
+    //socketPath: '/var/lib/mysql/mysql.sock'
 });
 
 // connect to database

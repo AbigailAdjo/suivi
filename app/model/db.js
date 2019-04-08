@@ -12,7 +12,7 @@ var connection = mysql.createConnection({
     port     : '3306',
     password : 'EYGtpv96362',
     database : 'postecash',
-    socketPath: '/var/lib/mysql/mysql.sock'
+    //socketPath: '/var/lib/mysql/mysql.sock'
 });
 
 connection.connect(function(err) {
