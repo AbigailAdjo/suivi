@@ -7,11 +7,11 @@ var mysql = require('mysql');
 
 //local mysql db connection
 var connection = mysql.createConnection({
-    host     : 'fhbs.myd.sharedbox.com',
-    user     : 'fhbs_pmpadmingtp',
+    host     : 'nesz.myd.sharedbox.com',
+    user     : 'nesz_postecash',
     port     : '3306',
-    password : '9Fz_QybKgcUm',
-    database : 'fhbs_numheritlabscom231',
+    password : 'BzhKYlKxvcxp',
+    database : 'nesz_postecash'
     //socketPath: '/tmp/mysql.sock'
 });
 

@@ -35,32 +35,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="44" />
+          <entry key="js" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="44" />
+          <entry key="JavaScript" value="57" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="210">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="18" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/model/db.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="195">
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -83,8 +83,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/model/db.js" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/app/model/db.js" />
       </list>
     </option>
   </component>
@@ -104,66 +104,244 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-294" />
+    <option name="y" value="53" />
     <option name="width" value="1680" />
     <option name="height" value="989" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectUserFactors">
-    <factor id="binaryFeature:liftShorter" />
-    <factor id="binaryFeature:liftShorterClasses" />
-    <factor id="binaryFeature:middleMatching" />
-    <factor id="binaryFeature:nonGeneric" />
-    <factor id="binaryFeature:prox_inResolveScope" />
-    <factor id="binaryFeature:prox_openedInEditor" />
-    <factor id="binaryFeature:prox_sameDirectory" />
-    <factor id="binaryFeature:prox_sameLogicalRoot" />
-    <factor id="binaryFeature:prox_sdkOrLibrary" />
-    <factor id="binaryFeature:templates" />
-    <factor id="categoricalFeature:accessible" />
-    <factor id="categoricalFeature:expectedType" />
-    <factor id="categoricalFeature:kind" />
-    <factor id="categoricalFeature:prox_groovyReferenceListWeigher" />
-    <factor id="categoricalFeature:prox_javaInheritance" />
-    <factor id="categoricalFeature:prox_referenceList" />
-    <factor id="categoricalFeature:recursion" />
+    <factor id="binaryFeature:liftShorter">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:liftShorterClasses">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:middleMatching">
+      <dailyData date="08-04-2019">
+        <observation name="false" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:nonGeneric">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_inResolveScope">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_openedInEditor">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameDirectory">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameLogicalRoot">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sdkOrLibrary">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:templates">
+      <dailyData date="08-04-2019">
+        <observation name="false" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:accessible">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:expectedType">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:kind">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_javaInheritance">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_referenceList">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:recursion">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
     <factor id="completionFinishedType">
       <dailyData date="05-04-2019">
         <observation name="cancelled" value="11.0" />
       </dailyData>
       <dailyData date="08-04-2019">
-        <observation name="cancelled" value="22.0" />
+        <observation name="cancelled" value="26.0" />
+        <observation name="typedSelect" value="1.0" />
       </dailyData>
     </factor>
-    <factor id="completionType" />
+    <factor id="completionType">
+      <dailyData date="08-04-2019">
+        <observation name="BASIC" value="1.0" />
+      </dailyData>
+    </factor>
     <factor id="completionUsage">
       <dailyData date="05-04-2019">
         <observation name="count" value="11.0" />
       </dailyData>
       <dailyData date="08-04-2019">
-        <observation name="count" value="22.0" />
+        <observation name="count" value="27.0" />
       </dailyData>
     </factor>
-    <factor id="doubleFeature:explicitProximity" />
-    <factor id="doubleFeature:grouping" />
-    <factor id="doubleFeature:mostUsed" />
-    <factor id="doubleFeature:nameEnd" />
-    <factor id="doubleFeature:position" />
-    <factor id="doubleFeature:prefix" />
-    <factor id="doubleFeature:priority" />
-    <factor id="doubleFeature:prox_explicitlyImported" />
-    <factor id="doubleFeature:prox_knownElement" />
-    <factor id="doubleFeature:prox_sameModule" />
-    <factor id="doubleFeature:prox_samePsiMember" />
-    <factor id="doubleFeature:query_length" />
-    <factor id="doubleFeature:result_length" />
-    <factor id="doubleFeature:sameWords" />
-    <factor id="doubleFeature:shorter" />
-    <factor id="doubleFeature:simple" />
-    <factor id="doubleFeature:sorter" />
-    <factor id="doubleFeature:statics" />
-    <factor id="doubleFeature:stats" />
+    <factor id="doubleFeature:explicitProximity">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:grouping">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:mostUsed">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:nameEnd">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:position">
+      <dailyData date="08-04-2019">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="1.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prefix">
+      <dailyData date="08-04-2019">
+        <observation name="average" value="-1153.0" />
+        <observation name="count" value="1.0" />
+        <observation name="max" value="-1153.0" />
+        <observation name="min" value="-1153.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:priority">
+      <dailyData date="08-04-2019">
+        <observation name="average" value="-101.0" />
+        <observation name="count" value="1.0" />
+        <observation name="max" value="-101.0" />
+        <observation name="min" value="-101.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_explicitlyImported">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_knownElement">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_sameModule">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_samePsiMember">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:query_length">
+      <dailyData date="08-04-2019">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="1.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:result_length">
+      <dailyData date="08-04-2019">
+        <observation name="average" value="2.0" />
+        <observation name="count" value="1.0" />
+        <observation name="max" value="2.0" />
+        <observation name="min" value="2.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sameWords">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:shorter">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:simple">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sorter">
+      <dailyData date="08-04-2019">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="1.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:statics">
+      <dailyData date="08-04-2019">
+        <observation name="UNDEFINED" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:stats">
+      <dailyData date="08-04-2019">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="1.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+    </factor>
     <factor id="itemPosition" />
     <factor id="mnemonicsUsage" />
     <factor id="prefixLength" />
@@ -229,15 +407,15 @@
       <option name="presentableId" value="Default" />
       <updated>1554471867736</updated>
       <workItem from="1554471869576" duration="2525000" />
-      <workItem from="1554716925925" duration="3929000" />
+      <workItem from="1554716925925" duration="5017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6454000" />
+    <option name="totallyTimeSpent" value="7542000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="989" extended-state="6" />
+    <frame x="-294" y="53" width="1680" height="989" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
@@ -283,17 +461,17 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/db.js">
+    <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="18" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://$PROJECT_DIR$/app/model/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        <state relative-caret-position="195">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
