@@ -7,12 +7,12 @@ var mysql = require('mysql');
 
 //local mysql db connection
 var connection = mysql.createConnection({
-    host     : 'fhbs.myd.sharedbox.com',
-    user     : 'fhbs_pmpadmingtp',
+    host     : 'localhost',
+    user     : 'root',
     port     : '3306',
-    password : '9Fz_QybKgcUm',
-    database : 'fhbs_numheritlabscom231',
-    socketPath: '/tmp/mysql.sock'
+    password : 'EYGtpv96362',
+    database : 'postecash',
+    socketPath: '/var/lib/mysql/mysql.sock'
 });
 
 connection.connect(function(err) {

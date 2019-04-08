@@ -12,12 +12,12 @@ port = process.env.PORT || 3300; //3000
 const mysql = require('mysql');
 // connection configurations
 const mc = mysql.createConnection({
-    host     : 'fhbs.myd.sharedbox.com',
-    user     : 'fhbs_pmpadmingtp',
+    host     : 'localhost',
+    user     : 'root',
     port     : '3306',
-    password : '9Fz_QybKgcUm',
-    database : 'fhbs_numheritlabscom231',
-    socketPath: '/tmp/mysql.sock'
+    password : 'EYGtpv96362',
+    database : 'postecash',
+    socketPath: '/var/lib/mysql/mysql.sock'
 });
 
 // connect to database
