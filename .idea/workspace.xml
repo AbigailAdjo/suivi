@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3c7f32e-2e56-42ba-853d-6d33bd7090e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/model/db-back.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-back.js" afterDir="false" />
-    </list>
+    <list default="true" id="f3c7f32e-2e56-42ba-853d-6d33bd7090e9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -479,18 +473,17 @@
       <option name="presentableId" value="Default" />
       <updated>1554471867736</updated>
       <workItem from="1554471869576" duration="2525000" />
-      <workItem from="1554716925925" duration="14802000" />
+      <workItem from="1554716925925" duration="15104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17327000" />
+    <option name="totallyTimeSpent" value="17629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="26" y="23" width="1680" height="989" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -506,7 +499,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="RNConsole" order="10" />
       <window_info anchor="bottom" id="CSS-X-Fire" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32998884" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32998884" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="GitLabIntegration" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
