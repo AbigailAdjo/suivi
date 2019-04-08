@@ -4,7 +4,8 @@
   "description": "testing node api with mysql",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Adjo Abigail YETE",
   "license": "ISC",
@@ -16,5 +17,14 @@
   "devDependencies": {
     "md5": "^2.2.1",
     "nodemon": "^1.18.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paangom/suivi.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/paangom/suivi/issues"
+  },
+  "homepage": "https://github.com/paangom/suivi#readme"
 }
