@@ -11,22 +11,15 @@ port = process.env.PORT || 3000; //3000
 
 let mysql = require('mysql');
 // connection configurations
-/*let mc = mysql.createConnection({
+let mc = mysql.createConnection({
     host     : 'nesz.myd.sharedbox.com',
     user     : 'nesz_postecash',
     port     : '3306',
     password : 'BzhKYlKxvcxp',
-    database : 'nesz_postecash'
-    //socketPath: '/tmp/mysql.sock'
-});*/
-let mc = mysql.createConnection({
-    host     : '185.74.71.245',
-    user     : 'root',
-    port     : '3306',
-    password : 'EYGtpv96362',
-    database : 'nesz_postecash'
+    database : 'nesz_sunupay'
     //socketPath: '/tmp/mysql.sock'
 });
+
 mc.connect();
 handleDisconnect(mc);
 function handleDisconnect(client) {

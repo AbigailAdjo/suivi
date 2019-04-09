@@ -7,17 +7,15 @@ var mysql = require('mysql');
 
 //local mysql db connection
 var connection = mysql.createConnection({
-    host     : 'nesz.myd.sharedbox.com',
-    user     : 'nesz_postecash',
+    host     : '185.74.71.245',
+    user     : 'root',
     port     : '3306',
-    password : 'BzhKYlKxvcxp',
-    database : 'nesz_sunupay'
-    //socketPath: '/tmp/mysql.sock'
+    password : 'EYGtpv96362',
+    database : 'nesz_postecash'
 });
 
 connection.connect(function(err) {
     if (err) throw err;
 });
-
 
 module.exports = connection;
