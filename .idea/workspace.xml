@@ -4,6 +4,7 @@
     <list default="true" id="f3c7f32e-2e56-42ba-853d-6d33bd7090e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/model/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +16,10 @@
     <session id="-53502955">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="3" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -35,23 +36,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="141" />
+          <entry key="js" value="156" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="141" />
+          <entry key="JavaScript" value="156" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="29" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="447">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -64,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/model/dataModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" column="39" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="39" />
+            <state relative-caret-position="444">
+              <caret line="150" column="2" lean-forward="true" selection-start-line="150" selection-start-column="2" selection-end-line="150" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -79,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/model/db.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <state relative-caret-position="269">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -110,7 +111,7 @@
         <entry file="file://$PROJECT_DIR$/app/routes/appRoutes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -143,8 +144,8 @@
       <list>
         <option value="$PROJECT_DIR$/server/Models/Article.js" />
         <option value="$PROJECT_DIR$/app/server.js" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/app/model/db.js" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -164,9 +165,8 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="72" />
-    <option name="y" value="41" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="989" />
   </component>
@@ -176,85 +176,136 @@
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
       </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
+      </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
       <dailyData date="08-04-2019">
         <observation name="false" value="7.0" />
       </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="false" value="3.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
+      </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
       </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
+      </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
       </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
+      </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
       </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
       <dailyData date="08-04-2019">
         <observation name="false" value="7.0" />
+      </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="false" value="3.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
       </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
+      </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
       </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
+      </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
       </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
       </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
+      </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
@@ -268,10 +319,16 @@
       <dailyData date="09-04-2019">
         <observation name="cancelled" value="7.0" />
       </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="typedSelect" value="3.0" />
+      </dailyData>
     </factor>
     <factor id="completionType">
       <dailyData date="08-04-2019">
         <observation name="BASIC" value="9.0" />
+      </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="BASIC" value="3.0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
@@ -284,31 +341,53 @@
       <dailyData date="09-04-2019">
         <observation name="count" value="7.0" />
       </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="count" value="3.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
+      </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:grouping">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
       </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:mostUsed">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
+      </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
       </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:position">
       <dailyData date="08-04-2019">
         <observation name="average" value="0.0" />
         <observation name="count" value="13.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="5.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -322,6 +401,13 @@
         <observation name="min" value="-1153.0" />
         <observation name="variance" value="-0.0" />
       </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="average" value="-1153.0" />
+        <observation name="count" value="5.0" />
+        <observation name="max" value="-1153.0" />
+        <observation name="min" value="-1153.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
       <dailyData date="08-04-2019">
@@ -331,31 +417,57 @@
         <observation name="min" value="-101.0" />
         <observation name="variance" value="1178.280642" />
       </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="average" value="-5.0" />
+        <observation name="count" value="5.0" />
+        <observation name="max" value="-5.0" />
+        <observation name="min" value="-5.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_explicitlyImported">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
+      </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
       </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_sameModule">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
+      </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
       </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:query_length">
       <dailyData date="08-04-2019">
         <observation name="average" value="0.0" />
         <observation name="count" value="13.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="5.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -369,20 +481,36 @@
         <observation name="min" value="2.0" />
         <observation name="variance" value="0.129182" />
       </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="average" value="4.6" />
+        <observation name="count" value="5.0" />
+        <observation name="max" value="5.0" />
+        <observation name="min" value="3.0" />
+        <observation name="variance" value="0.217778" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
+      </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
       </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
+      </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sorter">
@@ -393,16 +521,33 @@
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="5.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:statics">
       <dailyData date="08-04-2019">
         <observation name="UNDEFINED" value="7.0" />
+      </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="UNDEFINED" value="3.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
       <dailyData date="08-04-2019">
         <observation name="average" value="0.0" />
         <observation name="count" value="13.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="5.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -415,6 +560,10 @@
       <dailyData date="08-04-2019">
         <observation name="average" value="351.75" />
         <observation name="count" value="4.0" />
+      </dailyData>
+      <dailyData date="01-05-2019">
+        <observation name="average" value="232.428571" />
+        <observation name="count" value="7.0" />
       </dailyData>
     </factor>
   </component>
@@ -434,6 +583,12 @@
               <item name="nodeapi" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodeapi" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodeapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodeapi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nodeapi" type="b2602c69:ProjectViewProjectNode" />
@@ -490,18 +645,19 @@
       <workItem from="1554471869576" duration="2525000" />
       <workItem from="1554716925925" duration="15841000" />
       <workItem from="1554752902928" duration="653000" />
-      <workItem from="1554755044693" duration="4843000" />
+      <workItem from="1554755044693" duration="7033000" />
+      <workItem from="1556745570545" duration="675000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23862000" />
+    <option name="totallyTimeSpent" value="26727000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="72" y="41" width="1680" height="989" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="989" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -580,6 +736,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/appModel.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/loginModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server_old.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/model/db_old.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -590,7 +763,7 @@
     <entry file="file://$PROJECT_DIR$/app/routes/appRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -608,41 +781,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server_old.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/loginModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/appModel.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/model/dataModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="39" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="444">
+          <caret line="150" column="2" lean-forward="true" selection-start-line="150" selection-start-column="2" selection-end-line="150" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/model/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="269">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
