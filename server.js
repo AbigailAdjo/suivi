@@ -6,7 +6,7 @@
 let express = require('express'),
     app = express(),
     bodyParser = require('body-parser'),
-port = process.env.PORT || 3000; //3000
+port = process.env.PORT || 3300; //3000
 
 
 let mysql = require('mysql');
